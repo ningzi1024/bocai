@@ -1,0 +1,192 @@
+.closeBtnXINSlotEvent {
+    background-size: 100%  !important;
+    box-sizing: border-box;
+}
+#eventPopupXINSlotEvent{box-sizing: border-box; cursor: pointer;}
+
+/*==============================Large Style==============================*/
+.eventLayerXINSlotEvent.large{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    background: black;
+    opacity: 0.7;
+    z-index: 999;
+    left: 0px;
+
+}
+
+.eventPopupXINSlotEvent.large{
+    position: fixed;
+    z-index: 999;
+    opacity: 1;
+    background-size: 100% !important;
+}
+
+.closeBtnXINSlotEvent.large{
+    position: fixed;
+    z-index: 999;
+}
+
+/*==============================Medium Style==============================*/
+.eventLayerXINSlotEvent.medium{
+    position: fixed;
+    height: 0%;
+    width: 100%;
+    top: 0px;
+    background: white;
+    opacity: 0;
+    z-index: 999;
+    left: 0px;
+}
+
+.eventPopupXINSlotEvent.medium{
+    position: fixed;
+    z-index: 999; 
+    background: rgb(242, 242, 242);
+    opacity: 1;
+    box-shadow: rgb(0, 0, 0) 0px 0px 5px;
+    padding-bottom: 1%;
+}
+
+.closeBtnXINSlotEvent.medium{
+    position: fixed;
+    z-index: 999;
+}
+#iconDivXINSlotEvent{
+    width: 38%;
+    height: 100%;
+    display: inline-block;
+    padding: 2% 2% 0px 5%;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+#iconDivXINSlotEvent img{width: 100%;}
+
+#eventDetailDivXINSlotEvent{width: 100%}
+
+#txtDivXINSlotEvent{
+    width: 62%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 3% 5% 0px 0px;
+    box-sizing: border-box;
+}
+
+#txtDetailXINSlotEvent{width: 100%;}
+
+#txtDetailTitleXINSlotEvent{
+    color: #ff7e00;
+    font-size: 14.4928pt;
+    font-family: SimHei;
+}
+
+#txtDetailContentXINSlotEvent{
+    color: rgb(76, 76, 76);
+    font-size: 10.8696pt;
+    font-family: SimHei;
+    padding: 5% 0px 0px;
+    line-height: 11.5pt;
+}
+
+#txtButtonXINSlotEvent{
+    width: 60%;
+    height: 23%;
+    background: #00a651;
+    float: right;
+    text-align: center;
+    margin: 2% 0px 0px;
+}
+
+#txtButtonLabelXINSlotEvent{
+    color: rgb(255, 255, 255);
+    font-size: 10.8696pt;
+    font-family: SimHei;
+    padding: 7.6% 0px;
+
+}
+#logoDivXINSlotEvent {
+    width: 90%;
+    margin: 5px auto;
+    border-bottom: 2px #bfbfbf solid;
+}
+
+#logoDivXINSlotEvent img{
+    width:50%;
+    margin-bottom: 5px;
+}
+
+/*==============================Small Style==============================*/
+
+.eventLayerXINSlotEvent.small{
+    position: fixed;
+    height: 0%;
+    width: 100%;
+    top: 0px;
+    background: white;
+    opacity: 0;
+    z-index: 999;
+    left: 0px;
+}
+
+.eventPopupXINSlotEvent.small{
+    position: fixed;
+    z-index: 999;
+    opacity: 1;
+    background-size: 100% !important;
+    max-width: 150px;
+}
+
+.closeBtnXINSlotEvent.small{
+    position: fixed;
+    z-index: 999;
+    max-width: 40px;
+
+}
+
+
+/*==============================Custom style==============================*/
+.eventPopupXINSlotEvent.small{  /*Small Style Pop Up Position CSS*/
+    /* height:;
+    width:; */
+    top:30%;
+    /* left:50%; */
+    
+}
+
+.eventPopupXINSlotEvent.medium{ /*Medium Style Pop Up Position CSS*/
+ /* height:;
+    width:; */
+    top:30%;
+    /* left:50%; */
+}
+
+.eventPopupXINSlotEvent.large{ /*Large Style Pop Up Position CSS*/
+ /* height:;
+    width:; */
+    top:30%;
+    /* left:50%; */
+}
+
+.closeBtnXINSlotEvent.small{ /*Small Style Close Button Position CSS*/
+ /* height:;
+    width:; */
+    top:30%;
+    /* left:50%; */
+}
+
+.closeBtnXINSlotEvent.medium{ /*Medium Style Close Button Position CSS*/
+ /* height:;
+    width:; */
+    top:30%;
+    /* left:50%; */
+}
+.closeBtnXINSlotEvent.large{ /*Large Style Close Button Position CSS*/
+ /* height:;
+    width:; */
+    top:30%;
+    /* left:50%; */
+}
