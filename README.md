@@ -1,6 +1,6 @@
-# bocai demo
+# lal-demo
 
-> bocai webapp
+> lal-webapp
 
 ## Build Setup
 
